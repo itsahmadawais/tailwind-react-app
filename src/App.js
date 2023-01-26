@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.scss';
-
+import getRoutes from './routes';
 function App() {
   return (
-    <div className='bg-red-500'>
-      Hi
-    </div>
+    <>
+      {getRoutes()}
+    </>
   );
 }
 
