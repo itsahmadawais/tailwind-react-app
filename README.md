@@ -27,20 +27,20 @@ This will start the development server and open the app in your browser. You can
 
 The project has the following file structure:
 
-`your-project-name/`
-`├── public/`
-`│   ├── index.html`
-`│   ├── favicon.ico`
-`│   └── manifest.json`
-`├── src/`
-`│   ├── components/`
-`│   ├── layouts/`
-`│   ├── pages/`
-`│   ├── utils/`
-`│   ├── index.js`
-`│   └── routes.js`
-`├── package.json`
-`└── README.md` `
+```your-project-name/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── utils/
+│   ├── index.js
+│   └── routes.js
+├── package.json
+└── README.md```
 
 The `src` folder contains all of the source code for your app. The `public` folder contains static assets such as the index.html file and favicon.  The `src/components` folder contains reusable React components. The `src/pages` folder contains the pages of the app. The layout folder `src/layouts` contains layouts for the pages. `src/utils` folder contains utility functions that can be used in different parts of the app. The `src/index.js` file is the entry point of the app. The `src/routes.js` file contains the routing information of the app.
 
